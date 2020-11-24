@@ -34,13 +34,19 @@ public class BotMercadoLibre {
                 this.nombre = line.substring(indexStart, buscaCaracter(line, '"', indexStart));
             }
 
-
             if (!precio.equals("") && !nombre.equals("")) {
                 break;
             }
         }
     }
 
+    /**
+     * Función que buscará apartir de un index, el index del carácter enviado.
+     * @param line Línea completa donde se buscará el carácter
+     * @param caracter Carácter a buscar
+     * @param index Index de donde se empezará a buscar en "line"
+     * @return Retornará el index donde se encuentra el carácter a buscar.
+     */
     private int buscaCaracter(String line, char caracter, int index) {
         for (int i = index; i < line.length(); i++) {
             if (line.charAt(i) == caracter) {
@@ -50,6 +56,11 @@ public class BotMercadoLibre {
         return -1;
     }
 
+    /**
+     * Función que hace la petición GET a una URL
+     * @param url Página a hacer la petición
+     * @return Retornará el código HTML con la respuesta de la petición.
+     */
     private String getHTML(String url) {
         String content = null;
         URLConnection connection = null;
