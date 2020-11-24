@@ -1,0 +1,5 @@
+.idea
+.idea/*
+TallerBots.iml
+!src/*
+!src
