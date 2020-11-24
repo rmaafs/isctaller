@@ -3,10 +3,9 @@ package com.rmaafs.taller;
 public class Main {
 
     public static void main(String[] args) {
-        BotInstagram cuenta = new BotInstagram("https://www.instagram.com/relmaps/?hl=mx");
-        System.out.println("Nombre: " + cuenta.nombre);
-        System.out.println("Cuenta: " + cuenta.cuenta);
-        System.out.println("Followers: " + cuenta.followers);
-        System.out.println("Following: " + cuenta.following);
+        String pass = "";//Jeje no será 'isc'?
+        String nombre = "";//¿Quién eres?, Puedes ser anónimo ;)
+        String mensaje = "";//¿A quién le quieres mandar saludos?
+        new BotMensaje(pass, nombre, mensaje);
     }
 }
