@@ -6,6 +6,6 @@ public class Main {
         String pass = "";//Jeje no será 'isc'?
         String nombre = "";//¿Quién eres?, Puedes ser anónimo ;)
         String mensaje = "";//¿A quién le quieres mandar saludos?
-        new BotMensaje(pass, nombre, mensaje);
+        new PostMensaje(pass, nombre, mensaje);
     }
 }

@@ -4,7 +4,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
 
-public class BotYoutube {
+public class GetYoutube {
 
     public String nombre = "";
     public String vistas = "";
@@ -20,7 +20,7 @@ public class BotYoutube {
      * System.out.println("Dislikes: " + video.dislikes);
      */
 
-    public BotYoutube(String url) {
+    public GetYoutube(String url) {
         String nombreClave = "\",\\\"title\\\":\\\"";
         String vistasClave = ",\\\"viewCount\\\":\\\"";
         String dislikesClave = "\"DISLIKE\"},\"defaultText\":{\"accessibility\":{\"accessibilityData\":{\"label\":\"";

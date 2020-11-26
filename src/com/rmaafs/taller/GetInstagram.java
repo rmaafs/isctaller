@@ -4,7 +4,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
 
-public class BotInstagram {
+public class GetInstagram {
 
     public String nombre = "";
     public String cuenta = "";
@@ -20,7 +20,7 @@ public class BotInstagram {
      * System.out.println("Following: " + cuenta.following);
      */
 
-    public BotInstagram(String url) {
+    public GetInstagram(String url) {
         String nombreClave = "\",\"name\":\"";
         String cuentaClave = "\",\"alternateName\":\"@";
         String followersClave = "\",\"userInteractionCount\":\"";

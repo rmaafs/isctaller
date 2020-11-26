@@ -4,7 +4,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
 
-public class BotMonedaUSD {
+public class GetMonedaUSD {
 
     public String precio = "";
 
@@ -14,7 +14,7 @@ public class BotMonedaUSD {
      * System.out.println("1 Dolar es igual a MXN $" + dollar.precio + " pesos mexicanos.");
      */
 
-    public BotMonedaUSD() {
+    public GetMonedaUSD() {
         String url = "https://www.google.com/search?q=1+USD+A+MXN&oq=1+USD+A+MXN&aqs=chrome..69i57.5024j0j1&sourceid=chrome&ie=UTF-8";
 
         String precioClave = "\" data-precision=\"2\" data-value=\"";

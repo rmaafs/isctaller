@@ -8,9 +8,9 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BotMensaje {
+public class PostMensaje {
 
-    public BotMensaje(String pass, String nombre, String mensaje) {
+    public PostMensaje(String pass, String nombre, String mensaje) {
         HashMap<String, String> values = new HashMap<>();
         values.put("pass", pass);
         values.put("nombre", nombre);

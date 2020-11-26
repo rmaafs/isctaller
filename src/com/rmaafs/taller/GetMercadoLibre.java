@@ -4,7 +4,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
 
-public class BotMercadoLibre {
+public class GetMercadoLibre {
 
     public String precio = "";
     public String nombre = "";
@@ -17,7 +17,7 @@ public class BotMercadoLibre {
      * System.out.println("Precio: " + producto.precio);
      */
 
-    public BotMercadoLibre(String url) {
+    public GetMercadoLibre(String url) {
         String precioClave = "\"offers\":{\"price\":";
         String nombreClave = "application/ld+json\">{\"name\":\"";
 

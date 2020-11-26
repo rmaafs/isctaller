@@ -3,3 +3,5 @@
 TallerBots.iml
 !src/*
 !src
+out
+out/*
