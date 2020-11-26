@@ -10,7 +10,7 @@ public class GetMonedaUSD {
 
     /**
      * EJEMPLO DE USO:
-     * BotMonedaUSD dollar = new BotMonedaUSD();
+     * GetMonedaUSD dollar = new GetMonedaUSD();
      * System.out.println("1 Dolar es igual a MXN $" + dollar.precio + " pesos mexicanos.");
      */
 

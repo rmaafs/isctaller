@@ -13,7 +13,7 @@ public class GetInstagram {
 
     /**
      * EJEMPLO DE USO:
-     * BotInstagram cuenta = new BotInstagram("https://www.instagram.com/relmaps/?hl=mx");
+     * GetInstagram cuenta = new GetInstagram("https://www.instagram.com/relmaps/?hl=mx");
      * System.out.println("Nombre: " + cuenta.nombre);
      * System.out.println("Cuenta: " + cuenta.cuenta);
      * System.out.println("Followers: " + cuenta.followers);

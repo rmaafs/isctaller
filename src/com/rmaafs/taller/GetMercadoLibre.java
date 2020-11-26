@@ -12,7 +12,7 @@ public class GetMercadoLibre {
     /**
      * EJEMPLO DE USO:
      *
-     * BotMercadoLibre producto = new BotMercadoLibre("https://articulo.mercadolibre.com.mx/MLM-770912905-taladro-atornillador-electrico-20-v-inalambrico-klatter-_JM#reco_item_pos=4&reco_backend=promotions-sorted-by-score-mlm-B&reco_backend_type=low_level&reco_client=home_seller-promotions-recommendations&reco_id=6f0f653f-c17d-4702-9cff-29c1963e09c7&c_id=/home/promotions-recommendations/element&c_element_order=5&c_uid=c234058f-9133-4184-8cda-7b266f39b107");
+     * GetMercadoLibre producto = new GetMercadoLibre("https://articulo.mercadolibre.com.mx/MLM-770912905-taladro-atornillador-electrico-20-v-inalambrico-klatter-_JM#reco_item_pos=4&reco_backend=promotions-sorted-by-score-mlm-B&reco_backend_type=low_level&reco_client=home_seller-promotions-recommendations&reco_id=6f0f653f-c17d-4702-9cff-29c1963e09c7&c_id=/home/promotions-recommendations/element&c_element_order=5&c_uid=c234058f-9133-4184-8cda-7b266f39b107");
      * System.out.println("Nombre: " + producto.nombre);
      * System.out.println("Precio: " + producto.precio);
      */

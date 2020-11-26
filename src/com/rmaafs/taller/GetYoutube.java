@@ -13,7 +13,7 @@ public class GetYoutube {
 
     /**
      * EJEMPLO DE USO:
-     * BotYoutube video = new BotYoutube("https://www.youtube.com/watch?v=YcKpb7yybhY");
+     * GetYoutube video = new GetYoutube("https://www.youtube.com/watch?v=YcKpb7yybhY");
      * System.out.println("Nombre: " + video.nombre);
      * System.out.println("Vistas: " + video.vistas);
      * System.out.println("Likes: " + video.likes);
